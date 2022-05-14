@@ -1,0 +1,5 @@
+package com.lyon.jparepository.controllers;
+
+public class UserController {
+
+}

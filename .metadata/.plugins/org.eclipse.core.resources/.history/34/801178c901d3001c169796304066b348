@@ -1,0 +1,10 @@
+package com.lyon.jparepository.entities;
+
+public class User {
+	
+	private Long id;
+	private String name;
+	private String email;
+	private Double salary;
+
+}

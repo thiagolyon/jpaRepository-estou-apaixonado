@@ -1,0 +1,14 @@
+package com.lyon.jparepository.repositories;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.lyon.jparepository.entities.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+
+	@Query
+	Page<User> seachSalary(Double minSalary, Double maxSalary, Pageable pageable);
+
+}

@@ -1,0 +1,5 @@
+package com.lyon.jparepository.repositories;
+
+public interface UserRepository {
+
+}
